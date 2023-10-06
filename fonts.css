@@ -1,0 +1,40 @@
+  /* Your existing CSS styles for .main-search, .search-form, .search-icon, .search-input go here */
+    
+   .is-dark .search-results {background-color:#2b2b2b;color:#fff;}
+   .is-dark .search-results a{background-color:#2b2b2b;color:#fff;}
+   .search-results {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 999; /* Ensure results appear over other content */
+        display: none; /* Initially hide the results */
+        background-color: #fff; /* Background color for the results */
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        max-height: 200px; /* Set a maximum height for results */
+        overflow-y: auto; /* Enable vertical scroll if needed */
+    }
+    
+
+    /* Additional styling for the search results */
+    .search-results ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .search-results li {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    /* Style the links in search results */
+    .search-results a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .search-results a:hover {
+        color: #007bff; /* Change color on hover */
+    }
