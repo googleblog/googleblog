@@ -38,3 +38,251 @@
     .search-results a:hover {
         color: #007bff; /* Change color on hover */
     }
+/* Styles for the code snippet box */
+   .code-snippet {
+       position: relative;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       background-color: #f5f5f5;
+       padding: 10px;
+       overflow: auto;
+       font-family: 'Courier New', monospace;
+       text-align: left;
+       margin: 10px;
+   }
+
+   /* Styles for the copy button */
+   .copy-button {
+       position: absolute;
+       top: 10px;
+       right: 10px;
+       background-color: #007bff;
+       color: #fff;
+       border: none;
+       border-radius: 3px;
+       padding: 5px 10px;
+       cursor: pointer;
+   }
+
+   .copy-button:hover {
+       background-color: #0056b3;
+   }
+
+   /* Add language name */
+   .language {
+       background-color: #333;
+       color: #fff;
+       padding: 5px 10px;
+       border-top-left-radius: 5px;
+       border-top-right-radius: 5px;
+   }
+  /* Footer Container */
+    .custom-footer {
+    background-color: rgba(53,112,210,1);
+    color: #fff;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    border-radius:7px;
+    
+    }
+    
+    
+    #custom-class1{
+    border-bottom:1px solid rgb(0,0,0,0.2);
+    width:100%;
+    
+    }
+    #custom-class1 h2,#custom-class2 h2{padding-bottom:7px;}
+    /* Footer Column Styling */
+    .custom-class {
+    text-align: left;
+    }
+    
+    @media only screen and (min-width: 768px) {
+    
+    #custom-class1{
+    border-bottom:0px solid rgb(0,0,0,0.2);
+    width:100%;
+    border-right:1px solid rgb(255,255,255,0.3);
+    }
+    }
+    /* Footer Links */
+    .custom-ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    .custom-ul li {
+    margin-bottom: 10px;
+    }
+    
+    .custom-ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+    }
+    
+    .custom-ul li a:hover {
+    color: #ff5733;
+    text-decoration:underline;
+    }
+    
+    /* Copyright Styling */
+    .custom-copyright {
+    text-align: center;
+    font-weight:500;
+    padding-top: 20px;
+    background-color:#6495ED;
+    padding-bottom:20px;
+    border-radius:3px;
+    }
+    
+    /* Responsive Styling */
+    @media (max-width: 768px) {
+    .custom-footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+    }
+    }
+
+#sidebar1-wrapper1{border-radius:5px;float:right;overflow:hidden;width:100%;box-sizing:border-box;word-wrap:break-word;padding-right: 10px;margin-right:0px;padding-left:10px;margin-left:0px;background-color:rgb(0,0,0,0.1);border:1px solid #6495ED;padding-bottom:20px;padding-top:20px;}
+    #footer-wrapper .sidebar2{text-align:left;width:100%;}
+    .sidebar2{width:100%;box-sizing:border-box;word-wrap:break-word;padding-right: 20px;margin-right:20px;padding-left:20px;margin-left:20px;}
+    a#Stats1_totalCount{float:right;background-color:rgba(155,155,155,0.02);color:$(main.color);padding:0 10px;margin:4px 0;line-height:22px;border:1px solid #eee}
+    .count_text{width:100%;display:inline-block;font-size:15px;height:35px;line-height:35px}
+    .count_text.view2:before{font-family:&quot;Font Awesome 5 Free&quot;;content:&quot;\f080&quot;;font-weight:600;margin:0 8px 0 0}
+    .count_text.post2:before{font-family:&quot;Font Awesome 5 Free&quot;;content:&quot;\f303&quot;;font-weight:600;margin:0 8px 0 0}
+    .count_text.comment2:before{font-family:&quot;Font Awesome 5 Free&quot;;content:&quot;\f27a&quot;;margin:0 8px 0 0}
+    .count_num{float:right;display:inline-block;font-size:15px;background-color:rgba(155,155,155,0.02);color:$(main.color);text-align:center;padding:0 15px;margin:4px 0;line-height:22px;border:1px solid #eee}
+    #sidebar1-wrapper1 .widget-title{float:left;text-align:left;padding:5px;left:20px;}
+
+
+/* Apply responsive styles to the table */
+.table-container {
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ccc;
+  overflow-x: auto;
+}
+
+/* Style the table header */
+thead th {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Style the table body rows */
+tbody td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Alternate row colors for better readability */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Add a border between each table row */
+tbody tr {
+  border-bottom: 2px solid #ccc;
+}
+
+/* Add a border between each table column */
+tbody td:not(:last-child) {
+  border-right: 2px solid #ccc;
+}
+
+
+
+/* Apply responsive styles to the table */
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style the table header */
+thead th {
+  background-color: #f2f2f2;
+  border: 1px solid #dddddd;
+  padding: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Style the table body rows */
+tbody td {
+  border: 1px solid #dddddd;
+  padding: 12px;
+}
+
+/* Alternate row colors for better readability */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Add a border between each table row */
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Add a border between each table column */
+tbody td:not(:last-child) {
+  border-right: 1px solid #dddddd;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* Styles for the code snippet box */
+   .code-snippet {
+       position: relative;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       background-color: #f5f5f5;
+       padding: 10px;
+       overflow: auto;
+       font-family: 'Courier New', monospace;
+       text-align: left;
+       margin: 10px;
+   }
+
+   /* Styles for the copy button */
+   .copy-button {
+       position: absolute;
+       top: 10px;
+       right: 10px;
+       background-color: #007bff;
+       color: #fff;
+       border: none;
+       border-radius: 3px;
+       padding: 5px 10px;
+       cursor: pointer;
+   }
+
+   .copy-button:hover {
+       background-color: #0056b3;
+   }
+
+   /* Add language name */
+   .language {
+       background-color: #333;
+       color: #fff;
+       padding: 5px 10px;
+       border-top-left-radius: 5px;
+       border-top-right-radius: 5px;
+   }
+
